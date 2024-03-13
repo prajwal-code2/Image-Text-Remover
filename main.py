@@ -257,7 +257,7 @@ class Design(MDScreen):
         self.exit_manager(path)
     
     def open_file_manager(self,obj):
-        self.filemanger_obj.show('C:\\Users\\Dell\\Desktop\\trail\\input images')
+        self.filemanger_obj.show('C:\\Users\\Dell\\Desktop\\Image Text Remover\\input images')  #Change path either to desired folder or can also leave it with single '\'
 
     def exit_manager(self,obj):
         self.filemanger_obj.close()
@@ -354,6 +354,9 @@ class Design(MDScreen):
     # Function to save the generated image
     def save_image(self,obj):
         image_name = os.path.split(self.uploaded_image_path)
+        if not os.path.exists("output images"):
+            os.mkdir("output images") 
+
         cv2.imwrite(f"output images/{image_name[1]}",self.inpainted_img)
 
     

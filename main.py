@@ -257,7 +257,7 @@ class Design(MDScreen):
         self.exit_manager(path)
     
     def open_file_manager(self,obj):
-        self.filemanger_obj.show('C:\\Users\\Dell\\Desktop\\Image Text Remover\\input images')  #Change path either to desired folder or can also leave it with single '\'
+        self.filemanger_obj.show('C:\\Users\\Dell\\Desktop\\Image-Text-Remover\\input images')  #Change path either to desired folder or can also leave it with single '\'
 
     def exit_manager(self,obj):
         self.filemanger_obj.close()

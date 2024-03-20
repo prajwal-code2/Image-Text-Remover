@@ -47,7 +47,7 @@ Optical character recognition (OCR) is sometimes referred to as text recognition
    ```
 4. Run the below script to run the app
    ```sh
-   python YOLO_GUI.py
+   python main.py
    ```
 5. Use the app as per requirement and can also check demo video below for help.
 
@@ -62,7 +62,10 @@ Optical character recognition (OCR) is sometimes referred to as text recognition
 
 
 
-https://github.com/prajwal-code2/YOLO-APP/assets/74657725/16918c77-9caa-4efd-9b6e-15f74cd0951c
+
+https://github.com/prajwal-code2/Image-Text-Remover/assets/74657725/9c8eee4a-268d-4ff8-b2e9-4e672836fc05
+
+
 
 
 

@@ -1,6 +1,6 @@
-#  <p align ="center" height="40px" width="40px"> 💻YOLO APP💻 </p>
+#  <p align ="center" height="40px" width="40px"> 💻Image Text Remover💻 </p>
 
-#  <p align ="center" height="40px" width="40px">  🤖App that utilizes the power of YOLOv8🤖 </p>
+#  <p align ="center" height="40px" width="40px">  App that can label or remove the text in images </p>
 
 
 
@@ -20,27 +20,27 @@
 
 ##     <p align = "left"> Introduction 📚 </p>
 
-This is a python application that uses the powerful YOLOv8 by ultralytics for object detection and tkinter for graphical user interface. With this application you can detect and count the no. of objects in images/videos and can also track the objects. This application can be modified to be used as a object tracker or people counter entering/exiting the premises.
+This is a python application that uses keras-ocr(a optical character recognizer) for recognizing the text in the image, opencv for processing the resultant image and kivymd for graphical user interface. With this application you can label the text present in the image with the results given by keras-ocr(text and their location) and can also inpaint(remove the text from the image) the image.
 
 <br>
 
-##     <p align = "left">About YOLO </p>
+##     <p align = "left">About OCR </p>
 
-Ultralytics YOLOv8 is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks.
+Optical character recognition (OCR) is sometimes referred to as text recognition. An OCR program extracts and repurposes data from scanned documents, camera images and image-only pdfs. OCR software singles out letters on the image, puts them into words and then puts the words into sentences, thus enabling access to and editing of the original content. It also eliminates the need for manual data entry.
 
 
 <br>
 
 ##     <p align = "left"> Features ⭐ </p>
- -  Utilizes the powerful YOLOv8 model for object detection.
- -  Detects the different kind of object present in images and videos.
- -  Can count and keep track of object in images and videos.
+ -  Utilizes the keras-ocr for detecting text in the image.
+ -  Detect, localize and label the text in the image.
+ -  Can remove the text from image.
 
 <br>
 
 ##     <p align = "left"> Installation and Usage 🛠️ </p>
 1. Clone this repository to your local machine.
-2. Change the directory to YOLO-APP so that it will run without any errors.
+2. Change the directory to Image-Text-Remover so that it will run without any errors.
 3. Then install the required packages by running below script
    ```sh
    pip install -r requirements.txt
